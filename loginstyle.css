@@ -1,0 +1,20 @@
+/* Style */
+body {
+	background-image: url('./img/background.jpg');
+	opacity: .9;
+	filter: alpha(opacity=50); 
+}
+
+#login-content {
+	margin: 100px auto;
+	text-align: center;
+	background-color: rgba(39, 38, 38, 0.5);
+	color: white;
+	width: 350px;
+	height: 350px;
+	border-radius: 3%;
+}
+
+.inputContainer {
+	padding: 10px 0;
+}
