@@ -1,24 +1,38 @@
-<!DOCTYPE html>
 <html>
 	<head>
-		<title>Login Form</title>
-		<link href="loginstyle.css" type="text/css" rel="stylesheet">
+		<title>Moment Catcher</title>
+		<meta name="viewport" content="initial-scale=1, maximum-scale=1">
+		<link href="./style/style.css" type="text/css" rel="stylesheet">
+		<script>
+			window.onload = function() {
+				document.getElementById('menulink').onclick = function() {
+					var menu = document.getElementById('menu');
+					if(menu.className != 'shownmenu') {
+						menu.className = 'shownmenu';
+					}
+					else {
+						menu.className = 'hiddenmenu';
+					}
+				}
+			}
+		</script>
 	</head>
 	<body>
-		<div id="login-content">
-			<div class="login-header">
-				<h3>Login to Your Account</h3>
+		<div id="header">
+			<div id="name">Moment Catcher</div>
+			<div id="menubutton"><a id="menulink" href="#">MENU</a></div>
+			<div id="menu" class="hiddenmenu">
+				<div class="menuitem"><a href="#">Home</a></div>
+				<div class="menuitem"><a href="#">Packages</a></div>
+				<div class="menuitem"><a href="#">Services</a></div>
+				<div class="menuitem"><a href="#">Events</a></div>
+				<div class="menuitem"><a href="#">Gallery</a></div>
+				<div class="menuitem"><a href="#">Contact us</a></div>
+				<div class="menuitem"><a href="#">About us</a></div>
 			</div>
-			<form class="login-form">
-			<div class="inputContainer">
-			<input type="email" class="input" name="email" placeholder="Email"/>
-			</div>
-			<div class="inputContainer">
-			<input type="password" class="input" name="password" placeholder="Password"/>
-			</div>
-			<input type="submit" class="button" name="login" value="Login"/>
-			<a href="#" class="Sign-up">Sign-up</a>
-			</form><!--end login-form-->
-		</div><!--end login-content-->
+			<div class="clear"></div>
+		</div>
+		<div class="content">
+		</div>
 	</body>
 </html>
