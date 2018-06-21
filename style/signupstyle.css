@@ -6,7 +6,7 @@ body {
 }
 /* Container Style */		
 #leftContainer {
-	background-image: url('../image/background.jpg');
+	background-image: url('../image/background2.jpg');
 	background-size: cover;
 }
 
@@ -25,7 +25,7 @@ body {
 }
 
 #leftContainer .content {
-	text-align: center;
+	text-align: left;
 	color: #fff;
 	padding: 20px;
 
@@ -34,12 +34,6 @@ body {
 .content h1 {
 	font-family: 'Comfortaa', cursive;
 	font-size: 60px;
-}
-
-.content p {
-	font-family: 'Satisfy', cursive;
-	font-size: 30px;
-	
 }
 
 /* Login Form Style */
@@ -52,7 +46,7 @@ h2 {
 	font-family: 'Comfortaa', cursive;
 	font-size: 35px;
 }
-/* Form Style */
+/* Input Style */
 input[type=text], input[type=password] {
 	width: 50%;
 	padding: 12px 5px;
@@ -61,19 +55,23 @@ input[type=text], input[type=password] {
 	border: none;
 	border-bottom: 2px solid #56B945;
 	box-sizing: border-box;
-	font-family: 'Comfortaa', cursive;
 	font-size: 16px;
 }
 
+label {
+	width: 100px;
+	display: block;
+	margin-left: 160px;
+}
+/* Button Style */
 button {
 	background-color: #57B847;
 	color: #fff;
-	padding: 14px 20px;
+	padding: 14px 5px;
 	border: none;
 	cursor: pointer;
 	width: 50%;
-	margin-top: 60px;
-	font-family: 'Comfortaa', cursive;
+	margin-top: 40px;
 	font-size: 18px;
 }
 
@@ -90,5 +88,5 @@ button:hover {
 }
 
 .wrapper {
-	margin-top: 200px;
+	margin-top: 170px;
 }
