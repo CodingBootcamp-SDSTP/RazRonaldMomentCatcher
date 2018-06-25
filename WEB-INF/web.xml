@@ -1,0 +1,13 @@
+<?xml version="1.0" ?>
+<web-app>
+	<display-name>Moment Catcher</display-name>
+	<description>Moment App</description>
+	<servlet>
+		<servlet-name>Client</servlet-name>
+		<servlet-class>ClientServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Client</servlet-name>
+		<url-pattern>/clients</url-pattern>
+	</servlet-mapping>
+</web-app>
